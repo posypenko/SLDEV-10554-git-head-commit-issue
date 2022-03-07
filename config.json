@@ -21,5 +21,7 @@
     "filesStorage": "/tmp",
     "sealightsJvmParams": {
         "sl.enableUpgrade": false
-    }
+    },
+    "scannerJar": "./sl-build-scanner.jar",
+    "listenerJar": "./sl-test-listener.jar"
 }
