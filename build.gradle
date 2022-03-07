@@ -73,14 +73,18 @@ runTestOnly=false
 filesStorage="/tmp"
 logEnabled=true
 logPluginMinimal=false
-logToFile=true
+logToConsole=true
 logLevel="debug"
 logFolder="/tmp"
-createBuildSessionId=true
-createPRBuildSessionId=false
+createBuildSessionId=false
+createPRBuildSessionId=true
+repositoryUrl="https://github.com/posypenko/SLDEV-10554-git-head-commit-issue"
+pullRequestNumber="2"
+latestCommit="1d09aafe4a1a0ed0840aa8ed94dd984dce6dbf09"
+targetBranch="master"
 sealightsJvmParams=["sl.enableUpgrade" : "false"]
-build="001"
-branch="master"
+buildScannerJar="./sl-build-scanner.jar"
+testListenerJar="./sl-test-listener.jar"
 
             }
         }
